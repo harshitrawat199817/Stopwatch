@@ -19,7 +19,7 @@ git clone https://github.com/harshitrawat199817/Stopwatch.git
 
 **Demo:**
 
-A live demo of the stopwatch can be accessed [here](link to your deployed version, if applicable).
+A live demo of the stopwatch can be accessed [here]([link to your deployed version, if applicable](https://harshitrawat199817.github.io/Stopwatch/)).
 
 **How it Works:**
 
