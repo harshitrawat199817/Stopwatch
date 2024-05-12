@@ -1,0 +1,51 @@
+
+body{
+    margin: 0;
+}
+/* ---main--- */
+/*--- div container--- */
+.container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to right bottom, black 25% , orange );
+}
+/* ---div stopwatch--- */
+.stopwatch{
+    border: 2px solid rgb(72, 71, 71);
+    border-style: solid;
+    border-radius: 25px;
+    padding: 20px;
+    align-items: normal;
+    height: 200px;
+    min-width: fit-content;
+    width: 30%;
+    background: linear-gradient(to right bottom, black 1% , orange 200%);
+    color: white;
+
+}
+.time-heading, .time-label{
+    margin: 10px;
+}
+
+/* ---buttons--- */
+button{
+    background-color: black;
+    color: white;
+    width: 60px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+button:hover{
+    background-color: rgba(255, 166, 0, 0.808);
+    color: #272727;
+    box-shadow: white 0px 0px 10px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
